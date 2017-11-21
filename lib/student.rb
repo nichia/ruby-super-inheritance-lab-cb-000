@@ -1,11 +1,9 @@
-module Student
-  module InstanceMethods
-    def hello
-      puts "Hey there! I'm so excited to learn stuff."
-    end
+class Student
+  def hello
+    puts "Hey there! I'm so excited to learn stuff."
+  end
 
-    def raise_hand
-      puts "Pick me!"
-    end
+  def raise_hand
+    puts "Pick me!"
   end
 end
