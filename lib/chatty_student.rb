@@ -9,5 +9,8 @@ class ChattyStudent < Student
   #    super
   #    i += 1
   #  end
+    10.times do
+      super
+    end
   end
 end
