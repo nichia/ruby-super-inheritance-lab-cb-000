@@ -1,6 +1,6 @@
 require_relative "./lib/student.rb"
 
-class ChattyStudent
+class ChattyStudent < Student
   include InstanceMethods::Student
   def hello
     super
